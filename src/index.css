@@ -1,3 +1,4 @@
+/* @import "tailwindcss"; */
 body {
   margin: 0;
   width: 100%;
@@ -222,4 +223,275 @@ right: 5px; */
   background-color: #000000;
   width: 30px;
   height: 30px;
+}
+
+.lastline {
+  /* display: flex; */
+  margin-top: 40px;
+  background-color: #202020;
+  /* justify-content: center; */
+  /* color: white; */
+  width: 100%;
+  height: 500px;
+}
+.content {
+  width: 84%;
+}
+
+.Content_1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 84%;
+  /* max-width: 1440px; */
+  margin: 0 auto;
+  margin-top: 50px;
+  /* border: 1px solid green; */
+}
+.sub_content {
+  width: 21%;
+  /* border:1px solid red; */
+  color: White;
+  margin-top: 70px;
+  gap: 5px;
+  /* margin:7px; */
+}
+.sub_content_title {
+  font-size: 18px;
+  font-weight: 600px;
+}
+.sub_content p {
+  margin: 0px 0px 10px;
+  /* gap: 2px; */
+  color: #ffffffb7;
+}
+
+.logo-1 {
+  width: 37%;
+  /* border: 1px solid red; */
+}
+.logo-1 img {
+  height: 250px;
+  width: 250px;
+}
+
+.line {
+  width: 84%;
+  margin-top: 80px;
+  /* padding: 120px; */
+  /* border: 1px solid red; */
+}
+.content_2 {
+  color: #ccc;
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px auto;
+  /* border: 1px solid red; */
+  font-size: 16px;
+}
+
+.section_two {
+  padding: 20px 20px 0px;
+}
+.section_title {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px auto;
+  /* font-weight: 600; */
+  /* outline: 1px solid red; */
+}
+.section_title p {
+  color: #5a3912;
+}
+#Eco {
+  color: black;
+}
+#Raffia {
+  color: black;
+  font-weight: 600px;
+}
+#Earrings {
+  color: black;
+  font-weight: 600px;
+}
+#Adire {
+  color: black;
+  font-weight: 600px;
+}
+#products {
+  color: #000000;
+  font-weight: 600px;
+}
+.box_container {
+  display: flex;
+  gap: 4px;
+  width: 100%;
+  border: 0 solid #e5e7eb;
+  margin-top: 20px;
+  outline: 4px solid greenyellow;
+}
+.box_container a {
+  width: 25%;
+  display: block;
+  border: none;
+  text-decoration: none;
+  text-transform: none;
+  color: inherit;
+}
+.image_wrapper {
+  justify-content: center;
+  /* padding: 4px; */
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #ccc;
+}
+
+.image_wrapper img {
+  width: 100%;
+  /* width: 215px;
+  height: 200px; */
+}
+.image_wrapper p {
+  margin: 7px;
+  text-align: left;
+}
+.description {
+  color: rgb(78, 80, 117);
+}
+.price {
+  font-weight: 600px;
+  font-size: 17px;
+}
+.eco_box_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  width: 100%;
+  border: 0 solid #e5e7eb;
+  margin-top: 20px 0px;
+  outline: 4px solid red;
+}
+
+.eco_image_wrapper {
+  justify-content: center;
+  /* flex-direction: column; */
+  width: 23%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #ccc;
+  margin-bottom: 14px;
+  /* padding: 14px; */
+  max-width: 100%;
+}
+
+.eco_image_wrapper img {
+  width: 100%;
+  max-width: 100%;
+}
+.eco_image_wrapper p {
+  margin: 7px;
+  text-align: left;
+}
+.secret {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  /* z-index: 9999; */
+  align-items: center;
+}
+
+.inner_thanu_modal {
+  background: white;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 27%;
+  height: 30%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.inner_thanu_modal h6 {
+  margin: 10px 2px auto;
+  font-weight: 300px;
+  font-size: 14px;
+}
+#close_Modal {
+  width: 25%;
+  height: 20%;
+  /* border: 2px solid green; */
+  /* padding-left: 50px; */
+}
+#modal_logo {
+  width: 30%;
+  height: 30%;
+  /* border: 2px solid green; */
+}
+.position {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 30px 0px 5px -5px; */
+  /* border: 2px solid red; */
+}
+#About {
+  width: 95%;
+  height: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(78, 80, 117);
+  margin: 15px 2px auto;
+  /* border: 1px solid orange; */
+}
+#login {
+  width: 95%;
+  height: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(78, 80, 117);
+  margin: 15px 2px auto;
+  /* border: 1px solid orangered; */
+}
+.inner_thanu_modal h6:hover {
+  background-color: #000000;
+}
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner_login_modal {
+  background: white;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 52%;
+  height: 110%;
+}
+
+
+.close-btn {
+  display: block;
+  margin: 40px 12px 0px auto;
+}
+.login-caricature{
+  margin: 1px solid red;
 }
