@@ -1,10 +1,12 @@
+import Footer_logo from "../assets/images/logo2.svg";
+
 function Footer() {
   return (
     <div className="lastline">
       <div className="Content">
         <div className="Content_1">
           <div className="logo-1">
-            <img src="../images/logo2.svg" alt="Loading" />
+            <img src={Footer_logo} alt="Loading" />
           </div>
           <div className="sub_content">
             <h4 className="sub_content_title">Catalog</h4>

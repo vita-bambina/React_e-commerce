@@ -1,35 +1,46 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
+import Closebutton from "../assets/images/closebutton.svg";
 
-function MoreDropdown() {
-  const [isOpen, setIsOpen] = useState(false);
-  const close = () => setIsOpen(false);
-
+function Moredropdown({ showDropdown, setShowDropdown }) {
   return (
-    <div className="more2">
-      <p id="more" onClick={() => setIsOpen(true)}>More</p>
-      <img src="/images/more.svg" alt="Loading..." onClick={() => setIsOpen(true)} />
-
-      {isOpen && (
+    <>
+      {showDropdown && (
         <div id="More_dropdown" className="dropdown">
           <div className="inner_more_dropdown">
             <div className="dropdown_header">
               <p>Categories</p>
-              <img src="/images/closebutton.svg" alt="Close" onClick={close} />
+              <img
+                className="dropdown_closebtn"
+                src={Closebutton}
+                alt="Loading"
+                onClick={() => setShowDropdown(false)}
+              />
             </div>
             <div className="dropdown_list">
-              <Link to="/" onClick={close}>All Catalog</Link>
-              <Link to="/ecohomedecor" onClick={close}>Eco Home Decor</Link>
-              <Link to="/raffiabags" onClick={close}>Raffia Bags</Link>
-              <Link to="/raffiaearrings" onClick={close}>Raffia Earrings</Link>
-              <Link to="/adireprints" onClick={close}>Adire Prints</Link>
-              <Link to="/raffiaproducts" onClick={close}>Raffia Products</Link>
+              <Link to="/" onClick={() => setShowDropdown(false)}>
+                All Catalog
+              </Link>
+              <Link to="/eco-home-decor" onClick={() => setShowDropdown(false)}>
+                Eco Home Decor
+              </Link>
+              <Link to="/raffia-bags" onClick={() => setShowDropdown(false)}>
+                Raffia Bags
+              </Link>
+              <Link to="/raffia-earrings" onClick={() => setShowDropdown(false)}>
+                Raffia Earrings
+              </Link>
+              <Link to="/adire-prints" onClick={() => setShowDropdown(false)}>
+                Adire Prints
+              </Link>
+              <Link to="/raffia-products" onClick={() => setShowDropdown(false)}>
+                Raffia Products
+              </Link>
             </div>
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
 
-export default MoreDropdown;
+export default Moredropdown;

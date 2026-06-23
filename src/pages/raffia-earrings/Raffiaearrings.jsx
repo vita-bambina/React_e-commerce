@@ -33,7 +33,7 @@ function RaffiaEarrings() {
 
   return (
     <div
-      className="box_container {
+      className="box_container 
 "
     >
       {products.map((product) => (

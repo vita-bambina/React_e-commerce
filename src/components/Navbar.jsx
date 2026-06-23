@@ -40,7 +40,7 @@ function Navbar() {
         {openLogin && (
           <Loginmodal
             openLogin={openLogin}
-            handleClose={() => setOpsenLogin(false)}
+            handleClose={() => setOpenLogin(false)}
             handleOpenSignup={() => {
               setOpenLogin(false);
               setOpenSignup(true);

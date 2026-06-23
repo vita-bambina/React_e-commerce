@@ -3,7 +3,7 @@ import Layout from "./components/Mainlayout";
 import Shop from "./pages/shop/Shop";
 import AdirePrints from "./pages/adire-prints/Adireprints";
 import Eco_home_decor from "./pages/eco-home-decor/Ecohomedecor";
-import RaffiaBags from "./pages/raffia-bags/Raffiabags";
+import RaffiaBags from "./pages/raffiabags/Raffiabags";
 import RaffiaEarrings from "./pages/raffia-earrings/Raffiaearrings";
 
 function App() {
